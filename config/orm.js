@@ -78,7 +78,7 @@ var orm = {
     // I know I left id hard coded but I would hope ID would be stable field and only 1 instance would need to be updated if schema change
     
 
-    UpdateOne: function(table, col, colvalue, id, hs){
+    updateOne: function(table, col, colvalue, id, hs){
         
         var queryString = "UPDATE " + table + " SET " + col + " = " + colvalue + " WHERE  id=" + id + ";"
         console.log(queryString);
