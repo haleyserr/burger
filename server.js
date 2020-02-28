@@ -16,7 +16,7 @@ app.use(express.static("./public"));
 
 //Get to Router
 
-//require("./controllers/burgers_controller.js");
+require("./controllers/burgers_controller.js");
 
 
 //Start Server
